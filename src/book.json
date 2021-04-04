@@ -1,0 +1,79 @@
+{
+    "title": "爱生活爱Coding",
+    "description": "不重复造轮子",
+    "author": "liujing",
+    "language": "zh-hans",
+    "root":"docs",
+    "links": {
+        "sidebar": {
+            "有问题找百度": "https://www.baidu.com"
+        }
+    },
+    "plugins": [
+        "-highlight",
+        "-sharing",
+        "search-pro",
+        "editlink",
+        "pageview-count",
+        "copy-code-button",
+        "github",
+        "sharing-plus",
+        "splitter",
+        "toggle-chapters",
+        "tbfed-pagefooter",
+        "json",
+        "prism",
+        "insert-logo",
+        "styles-less",
+        "sidebar-style"
+    ],
+    "pluginsConfig": {
+        "sidebar-style": {
+                    "title": "从入门到跑路",
+                    "author": "liujing"
+                },
+        "github": {
+            "url": "https://github.com/liujingCode"
+        },
+        "editlink": {
+            "base": "https://github.com/liujingCode/Blog/edit/master/sources",
+            "label": "编辑本页"
+        },
+        "theme-default": {
+            "showLevel": false
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © liujing 2020",
+            "modify_label": "修改时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "json": {
+            "output": "book_structure.json"
+        },
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "weibo": true,
+            "qq": true,
+            "all": [
+                "douban",
+                "google",
+                "qzone",
+                "linkedin"
+            ]
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ],
+            "lang": {
+                "flow": "typescript"
+            }
+        },
+        
+        "insert-logo": {
+            "url": "http://pvwouh26j.bkt.clouddn.com/liujingHead.png",
+            "style": "background: none; max-height: 30px; min-height: 30px"
+        }
+    }
+}
